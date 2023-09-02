@@ -1,0 +1,273 @@
+:root{
+   -color:#0066FF
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    padding: 0 20px;
+    background-color: #0066FF;
+z-index: 8;
+}
+nav .nav-link{
+    color: #fff;
+    font-size: 17px;
+}
+nav .nav-link:hover{
+    border-bottom: 1px solid #fff;
+}
+.btn-main{
+font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: brown;
+}
+/* strat hero */
+.hero{
+    background-color: #0066FF;
+
+    color: white;
+   
+    padding:100px 20px;
+    height: 100vh;
+}
+.hero .imgess img{
+width:60%;
+height: auto;
+transition: 1.5s all;
+}
+.hero .imgess img:hover{
+
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+@media(max-width:700px){
+    .hero .imgess img{
+        max-width: 100%;
+    }
+}
+.hero form{
+    width:394px;
+    position: relative;
+}
+.hero input{
+    border: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 15px;
+    width: 250px;
+    margin-bottom: 20px;
+    outline: none;}
+
+.hero input[type='submit']
+{
+    position: relative;
+    display: inline-block;
+    left: -66px;
+    padding: 15px;
+    width: 130px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: brown;
+    color: #fff;
+}
+
+/* start feat*/
+.feat{
+    background-color: #0066FF;
+    border-bottom-right-radius: 550px;
+    border-bottom-left-radius: 550px;
+    padding: 30px 10px;
+}
+ .card{
+margin: auto;
+margin-bottom: 15px;
+transition: 1.6s all;
+border-radius: 20px;
+}
+.card:hover{
+  transform: scale(1.1);
+  border-radius: 30px;
+    }
+.feat .card-body {
+    border-radius: 10px;  
+     z-index:3;
+}
+.feat .card-body span{
+ background-color: #0066FF;
+    border-radius: 50%;
+    padding: 25px;
+    text-align: center;
+}
+.feat .card-body .icon{
+font-size: 30px;
+color: #fff;
+}
+.eee{
+    transform: translateY(-2%);
+}
+.trend{
+padding-top: 70px;
+}
+.trend-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.trend p{
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+}
+.trend .play-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.trend .btnn{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: brown;
+   color: #fff;
+   padding: 15px;
+   cursor: pointer;
+}
+.trend .b-btn{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: brown;
+   color: #fff;
+   height: 40px;
+   cursor: pointer;
+   font-size: 15px;
+}
+
+@media (max-width:900px){
+  .trend .card{
+  margin: auto;
+  margin-bottom: 15px;
+   width: 13rem;
+    }
+}
+
+/* start trend-222 */
+.trend-222{
+    background-color: #ddd;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    margin-top: 50px;
+    padding: 80px 20px;
+}
+.trend-222 .card { 
+    padding:  10px 15px;
+
+}
+.trend-222 .col-lg-2{
+  
+    margin: 10px ;
+}
+.trend-222 img{
+    border-radius:25px;
+}
+.trend-222 .b-btn{
+    height: 30px;
+    font-size: 16px;
+    margin-top: 15px;
+
+}
+/* start category */
+.category{
+    margin-top: 40px;
+    margin: auto;
+}
+ .category p{
+    color: brown;
+    font-weight: bold;
+ }
+
+ .category .card-body{
+    color: white;
+   background-color: #0066FF;
+   border-bottom-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+   padding: 15px;
+ }
+
+.last-part{
+    padding-top: 50px;
+    margin-bottom:40px;
+}
+
+.last-part .card{
+    background-color: #ddd;
+    z-index: 4;
+    margin-top: 50px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.last-part .main-partt{
+    position: relative;
+    left:90px;
+    top: 15px;
+    margin:auto;
+    z-index: 5;   
+}
+.last-part .main-partt22{
+    position: relative;
+    right: 77px;
+    top: 20px;
+}
+@media(max-width:900px){
+.last-part .card1{
+  width: 20rem;
+  margin-left: 20px;
+}
+.last-part .card2{
+    width: 20rem;
+    margin-right: 6px;
+  }
+.last-part .imges img{
+width: 50%;
+margin-left: 130px;
+}
+@media(max-width:600px){
+    .last-part .card1{
+        width: 15rem;
+        margin-left: -33px;
+      }
+      .last-part .card2{
+          width: 15rem;
+          margin-right: -77px;
+        }
+}}
+ footer{
+    background-color: #0066FF;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    padding: 40px;
+    color: #fff;
+ }
