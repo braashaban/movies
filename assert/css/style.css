@@ -13,7 +13,7 @@ a{
     text-decoration: none;
 }
 body{
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 nav{
     padding: 0 20px;
@@ -59,6 +59,20 @@ transition: 1.5s all;
     .hero .imgess img{
         max-width: 100%;
     }
+    .hero form{
+        width:294px;
+        position: relative;
+    }
+    .hero input{
+        border: none;
+        position: relative;
+        display: inline-block;
+        border-radius: 30px;
+        padding: 15px;
+        margin-top: 15px;
+        width: 180px;
+        margin-bottom: 20px;
+        outline: none;}
 }
 .hero form{
     width:394px;
@@ -88,6 +102,7 @@ transition: 1.5s all;
     background-color: brown;
     color: #fff;
 }
+
 
 /* start feat*/
 .feat{
@@ -243,18 +258,18 @@ padding-top: 70px;
 }
 @media(max-width:900px){
 .last-part .card1{
-  width: 20rem;
+  width: 15rem;
   margin-left: 20px;
 }
 .last-part .card2{
-    width: 20rem;
+    width: 15rem;
     margin-right: 6px;
   }
 .last-part .imges img{
 width: 50%;
 margin-left: 130px;
 }
-@media(max-width:600px){
+  @media(max-width:600px){
     .last-part .card1{
         width: 15rem;
         margin-left: -33px;
