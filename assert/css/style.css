@@ -5,15 +5,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x:hidden;
 }
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
-}
-body{
-    overflow-x:hidden;
 }
 nav{
     padding: 0 20px;
@@ -215,7 +213,7 @@ padding-top: 70px;
 /* start category */
 .category{
     margin-top: 40px;
-    margin: auto;
+
 }
  .category p{
     color: brown;
@@ -233,52 +231,23 @@ padding-top: 70px;
 .last-part{
     padding-top: 50px;
     margin-bottom:40px;
+    overflow-x: hidden;
 }
 
 .last-part .card{
     background-color: #ddd;
-    z-index: 4;
     margin-top: 50px;
     padding: 20px;
-    margin: auto;
-
 }
 
-.last-part .main-partt{
-    position: relative;
-    left:90px;
-    top: 15px;
-    margin:auto;
-    z-index: 5;   
-}
-.last-part .main-partt22{
-    position: relative;
-    right: 77px;
-    top: 20px;
-}
-@media(max-width:900px){
-.last-part .card1{
-  width: 15rem;
-  margin-left: 20px;
-}
-.last-part .card2{
-    width: 15rem;
-    margin-right: 6px;
-  }
-.last-part .imges img{
-width: 50%;
-margin-left: 130px;
-}
-  @media(max-width:600px){
-    .last-part .card1{
+@media(max-width:600px){
+    .last-part .card{
         width: 15rem;
-        margin-left: -33px;
-      }
-      .last-part .card2{
-          width: 15rem;
-          margin-right: -77px;
-        }
-}}
+    }
+}
+
+
+
  footer{
     background-color: #0066FF;
     border-top-right-radius: 100px;
